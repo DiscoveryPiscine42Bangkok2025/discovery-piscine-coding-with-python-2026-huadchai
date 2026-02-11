@@ -2,7 +2,7 @@ def checkmate(board):
     if not board:
         return
 
-    rows = board.strip().splitlines()
+    rows = board.splitlines()
     n = len(rows)
 
     if any(len(row) != n for row in rows):
