@@ -1,5 +1,6 @@
 def checkmate(board):
     if not board:
+        print("ไม่มีตารางหมากรุก")
         return
 
     rows = board.splitlines()
